@@ -1,0 +1,99 @@
+@import "./rezet.css";
+.container{
+    height: 50vh;
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+header, main, footer{
+    box-sizing: border-box;
+    padding: 5vw;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.show_button{
+    background-color: #46B55F;
+    border: none;
+}
+.api_input{
+    width: 30vw;
+    height: 10vh;
+    border: none;
+    border-radius: 5px;
+    font-size: 2vw;
+}
+.show_button{
+    border-radius: 5px;
+    width: 8vw;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+
+    transition: background-color 0.2s ease-in;
+}
+.show_button:hover{
+    background-color: #23d64d;
+}
+
+main{
+    height: 70vh;
+}
+
+
+.card{
+    width: 30vw;
+    height: 15vw;
+    box-shadow: 10px 10px 50px 10px #37CCC3;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.card-weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.title_card{
+    font-size: 2vw;
+}
+.title_card span{
+    font-weight: bold;
+}
+.card-value{
+    font-size: 2vw;
+}
+.task-description{
+    font-size: 2vw;
+}
+
+
+.card img{
+   width: auto;
+}
+
+
+
+
+
+
+footer{
+    background-color: #2b2929;
+}
+footer h2{
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+}
+
